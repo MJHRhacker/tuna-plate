@@ -15,6 +15,14 @@ body {
 
 /* ---- typography ---- */
 
+h1 {
+  font-family: 'Comfortaa', cursive;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+
+}
 
 /* ---- layout ---- */
 
