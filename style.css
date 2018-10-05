@@ -18,6 +18,9 @@ body {
   margin: 0;
   padding: 0;
 }
+img{
+  max-width:100%;
+}
 
 
 /* ---- typography ---- */
@@ -81,40 +84,35 @@ nav a{
 /* ---- slider ---- */
 
 .slider {
-  position: fixed;
-  left: 0;
-  top: 0;
   width: 100%;
-  z-index: 30;
-  background-color: $color-bg;
 }
 
 #slides {
-    position: relative;
-    height: 100vh;
-    padding: 0px;
-    margin: 0px;
-    list-style-type: none;
+  position: relative;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
 }
 
 .slide {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    z-index: 1;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
 
-    -webkit-transition: opacity 1s;
-    -moz-transition: opacity 1s;
-    -o-transition: opacity 1s;
-    transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
 }
 
 .showing {
-    opacity: 1;
-    z-index: 2;
+  opacity: 1;
+  z-index: 2;
 }
 
 /*
@@ -123,11 +121,11 @@ just for appearance; change whatever you want
 */
 
 .slide {
-    font-size: 40px;
-    padding: 40px;
-    box-sizing: border-box;
-    background: #333;
-    color: #fff;
+  font-size: 40px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #333;
+  color: #fff;
 
     .text {
       display: flex;
