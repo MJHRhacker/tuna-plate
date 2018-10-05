@@ -40,13 +40,6 @@ body {
   padding-top: 20px;
 }
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 728px;
-    margin: 0 auto;
-  }
-}
-
 /* ---- navbar ---- */
 nav{
   width:100%;
@@ -255,7 +248,34 @@ footer li{
   padding:10px 0;
 }
 
-/* ---- components ---- */
-
-/* ---- css shame ---- */
+@media (min-width: 768px) {
+  #slides{
+    height:600px;
+  }
+  .text h1{
+    font-size:2em;
+    text-shadow: 1px 1px 2px black;
+  }
+  .text p{
+    font-size:18px;
+  }
+  #benefits{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+  }
+  .benefit{
+    width:20%;
+  }
+  .value, #about{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:40px;
+  }
+  .value img, .value-text, .about-text, #about img{
+    width:50%;
+  }
+}
 
