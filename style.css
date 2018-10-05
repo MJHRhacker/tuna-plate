@@ -1,3 +1,10 @@
+/* ---- root ---- */
+
+:root{
+  --:;
+  --:;
+}
+
 /* ---- reset ---- */
 
 html {
@@ -43,8 +50,46 @@ body {
   }
 }
 
+/* ---- navbar ---- */
+nav{
+  width:100%;
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:space-between;
+  position:fixed;
+  top:0;
+}
+nav ul{
+  display:flex;
+  justify-content: space-between;
+  list-style: none;
+}
+nav li{
+  padding:0 10px;
+}
+nav a{
+  text-decoration:none;
+}
+
 /* ---- header ---- */
 
+#home{
+  margin-top:50px;
+  height:300px;
+}
+
+/* ---- benefits ---- */
+#benefits{
+  display:flex;
+  flex-flow:column nowrap;
+  justify-content: center;
+  text-align:center;
+}
+
+.benefit{
+  width:60%;
+  margin:10px auto;
+}
 /* ---- footer ---- */
 
 /* ---- components ---- */
