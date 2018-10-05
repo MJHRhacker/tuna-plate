@@ -73,6 +73,12 @@ nav li{
 }
 nav a{
   text-decoration:none;
+  color:#000;
+  transition:.7s;
+}
+nav a:active{
+  border-bottom:1px solid #3a92d8;
+  transition:.7s;
 }
 .logo{
   display:block;
@@ -96,12 +102,14 @@ nav a{
   left: 0;
   right: 0;
   padding:15px 30px;
-  background:green;
   width:40%;
   text-align:center;
   text-decoration:none;
   text-transform:uppercase;
   font-size:22px;
+  border-radius: 4px;
+  color:#fff;
+  background: linear-gradient(45deg, #1b59af, #3a92d8);
 }
 
 /* ---- slider ---- */
@@ -204,6 +212,19 @@ nav a{
 .value-text h3, .about-text h3{
   font-family: 'Comfortaa', cursive;
   text-align:center;
+}
+.value-button{
+  display:block;
+  margin:20px auto;
+  padding:15px 30px;
+  color:#fff;
+  background: linear-gradient(45deg, #1b59af, #3a92d8);
+  width:60%;
+  text-align:center;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:22px;
+  border-radius: 4px;
 }
 
 /* ---- trust ---- */
