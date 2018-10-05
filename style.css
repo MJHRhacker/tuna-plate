@@ -267,12 +267,15 @@ footer li{
   .benefit{
     width:20%;
   }
-  .value, #about{
+  #about, .value{
     display:flex;
-    flex-flow:row wrap;
+    flex-flow:row-reverse;
     justify-content: space-between;
     align-items: center;
     margin-bottom:40px;
+  }
+  .value{
+    flex-flow:row wrap;
   }
   .value img, .value-text, .about-text, #about img{
     width:50%;
