@@ -12,12 +12,4 @@ function nextSlide () {
   slides[currentSlide].className = 'slide showing';
 }
 
-skip.addEventListener('click', destroyScreen);
-
-function destroyScreen (e) {
-  if (e) {
-    slider.remove();
-  }
-}
-
 window.addEventListener('load', main);
